@@ -280,7 +280,7 @@ section, .card {
 
 /* Projects */
 .project-card {
-  background: rgba(77, 107, 255, 0.05);
+  background: rgba(34, 40, 60, 0.05);
   padding: 2rem;
   border-radius: 12px;
   margin-bottom: 1.5rem;
