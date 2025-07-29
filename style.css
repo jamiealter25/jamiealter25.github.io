@@ -11,6 +11,7 @@
   --light: #292a2e;
   --text: #ffffff;
   --text-secondary: #b0b0b0;
+  --border-color: #e5ebfa;
 }
 
 html {
@@ -184,6 +185,9 @@ nav a:hover::after {
 .card {
   background: var(--light);
   border-radius: 16px;
+  border-width: 0;
+  border-style: solid;
+  border-color: var(--border-color);
   margin: 2rem auto;
   padding: 3rem;
   max-width: 1000px;
