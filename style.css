@@ -98,8 +98,9 @@ nav a:hover::after {
 }
 
 .profile-img {
-  width: 380px;
-  height: 380px;
+  width: 100%;
+  max-width: 380px;
+  aspect-ratio: 1 / 1;
   background-color: var(--light);
   border-radius: 20px;
   border: 3px solid var(--accent);
@@ -109,10 +110,6 @@ nav a:hover::after {
   background-position: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   flex-shrink: 0;
-  width: 100%;
-  max-width: 380px;
-  height: auto;
-  aspect-ratio: 1 / 1;
 }
 
 .profile-img:hover {
